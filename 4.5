@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <math.h>
+#define _CRT_SECURE_NO_WARNINGS
+int main(void)
+{
+    printf("Введите число a: \n");
+    float a;
+    scanf("%f", &a);
+    printf("Введите число b: \n");
+    float b;
+    scanf("%f", &b);
+    if (a!=0 and b!=0)
+    {
+        float ma= abs(a);
+        float mb= abs(b);
+        float S;
+        S=ma+mb;
+        printf("Сумма модулей введенных чисел=%f \n", S);
+        float R;
+        R=ma-mb;
+        printf("Разность модулей введенных чисел=%f \n", R);
+        float P;
+        P=ma*mb;
+        printf("Произведение модулей введенных чисел=%f \n", P);
+        float C;
+        C=ma*ma/(mb*mb);
+        printf("Частное квадратов модулей введенных чисел=%f \n", C);
+    }
+    else
+    {
+        printf("Ошибка");
+    }
+    return 0;
+}
