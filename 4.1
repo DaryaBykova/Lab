@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define _WARNINGS_SECURE_NO_WARNINGS
+int main(void)
+{
+	printf("Найдем площадь прямоугольника");
+	printf("Введите длину стороны a:\n");
+	float a, b;
+	scanf("%f", &a);
+	printf("Введите длину стороны b:\n");
+	scanf("%f", &b);
+	float S, P;
+	S = a * b;
+	P = 2 * (a + b);
+	printf("Площадь прямоугольника=%f \n",S);
+	printf("Периметр прямоугольника=%f \n", P);
+	return 0;
+}
