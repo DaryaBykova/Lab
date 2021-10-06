@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS_
+#include <math.h>
+int main()
+{
+    float a, b, c;
+    printf("Введите координату точки A:\n");
+    scanf("%f", &a);
+    printf("Введите координату точки B:\n");
+    scanf("%f", &b);
+    printf("Введите координату точки C:\n");
+    scanf("%f", &c);
+    float ac=fabs(a-c);
+    float bc=fabs(b-c);
+    float s=ac+bc;
+    printf("Длина отрезка AC=%f, длина отрезка BC=%f, сумма этих трезков=%f", ac, bc, s);
+}
