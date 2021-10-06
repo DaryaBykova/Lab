@@ -1,0 +1,24 @@
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS_
+#include <math.h>
+int main()
+{
+    float a, b, c;
+    printf("Введите значение точки A:\n");
+    scanf("%f", &a);
+    printf("Введите значение точки B:\n");
+    scanf("%f", &b);
+    printf("Введите значение точки C, причем С принадлежит АВ:\n");
+    scanf("%f", &c);
+    if (((a>b)&&(c<a)&&(c>b))||((a<b)&&(c>a)&&(c<b)))
+    {
+        float ac=fabs(a-c);
+        float bc=fabs(b-c);
+        printf("Произведение отрезков AC и BC=%f", ac*bc);
+        
+    }
+    else
+    {
+        printf("Введенное значение точки С не удовлетворяет условию!");
+    }
+}
