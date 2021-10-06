@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+#define _CRT_SECURE_NO_WARNINGS_
+int main()
+{
+    float x1, y1, x2, y2;
+    printf("Введите координаты первой вершины:\n");
+    scanf("%f %f", &x1, &y1);
+    printf("Введите координаты второй вершины:\n");
+    scanf("%f %f", &x2, &y2);
+    float a, b;
+    a=fabs(x1-x2);
+    b=fabs(y1-y2);
+    float P=2*(a+b);
+    float S=a*b;
+    printf("Периметр прямоугольника=%f, площадь прямоугольника=%f", P, S);
+    
+}
