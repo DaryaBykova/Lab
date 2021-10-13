@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS_
+int main()
+{
+    float x;
+    printf("Введите значение переменной x=");
+    scanf("%f", &x);
+    float x2=x*x;
+    float y=3*x2*x2*x2-6*x2-7;
+    printf("Значение функции у=3x^6 − 6x^2 − 7 при заданном значении x=%f", y);
+}
