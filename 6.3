@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS_
+int main()
+{
+    int a, b, c;
+    printf("Введите значение переменной А:");
+    scanf("%d", &a);
+    printf("Введите значение переменной B:");
+    scanf("%d", &b);
+    printf("Введите значение переменной C:");
+    scanf("%d", &c);
+    int d=c;
+    c=a;
+    a=b;
+    b=d;
+    printf("Новое значение переменной А:%d; новое значение переменной В:%d; новое значение переменной C:%d", a, b, c);
+}
