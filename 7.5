@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    float a, b;
+    printf("Найдем корень линейного уравнения Ax + B = 0\n");
+    printf("Введите коэффициент А(А!=0): ");
+    scanf("%f", &a);
+    printf("Введите коэффициент В: ");
+    scanf("%f", &b);
+    if (a!=0)
+    {
+        float x=(-b)/a;
+        printf("Корень уравнения x = %g", x);
+    }
+    else
+    {
+        printf("Ошибка!");
+    }
+}
