@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    float x, a;
+    printf("Введите количество киллограмм конфет:");
+    scanf("%g", &x);
+    printf("Введите стоимость %g кг конфет:", x);
+    scanf("%g", &a);
+    float c=a/x;
+    printf("Цена за 1 кг: %g\n", c);
+    float y;
+    printf("Введите количество кг конфет, стоимость которых хотите узнать:");
+    scanf("%g", &y);
+    float s=y*c;
+    printf("Стоимость %g кг конфет:%g", y, s);
+}
