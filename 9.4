@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int a, b, c;
+    printf("Введите стороны прямоугольника А и В: ");
+    scanf("%d %d", &a, &b);
+    printf("Введите сторону квадрата: ");
+    scanf("%d", &c);
+    int ca=floor(a/c);
+    int cb=floor(b/c);
+    int k= ca*cb;
+    printf("В прямоугольнике со сторонами А и В возможно разместить %d квадротов со стороной С.", k);
+}
