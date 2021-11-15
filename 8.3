@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    float a, b;
+    printf("Введите длину отрезка А: ");
+    scanf("%f", &a);
+    printf("Введите длину отрезка B (B < A): ");
+    scanf("%f", &b);
+    if (a>b)
+    {
+        float c=floor(a/b);
+        float o=a-b*c;
+        printf("На отрезке А можно разместить %g отрезков В. Незанятая часть отрезка A: %g", c, o);
+    }
+    else
+    {
+        printf("Введены неверные значения!");
+    }
+}
