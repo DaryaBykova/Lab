@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    float r;
+    printf("Введите размер файла (в байтах):\n");
+    scanf("%f", &r);
+    float r1=ceil(r/1024);
+    printf("Файл заимает %g Кб.", r1);
+}
