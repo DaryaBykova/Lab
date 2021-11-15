@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int k;
+    printf("Определим номер дня недели для К-го дня года. Введите К (1<=K<=365) : ");
+    scanf("%d", &k);
+    int k1=k-floor(k/7)*7;
+    printf("Номер дня недели для К-го дня года: %d", k1);
+}
