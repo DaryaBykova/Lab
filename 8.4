@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int a, b;
+    printf("Введите двузначное число: ");
+    scanf("%d", &a);
+    int a1, a2;
+    a1=floor(a/10);
+    a2=a-a1*10;
+    b=a2*10+a1;
+    printf("Число, полученное перестановкой цифр исходного числа: %d", b);
+}
