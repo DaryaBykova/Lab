@@ -1,0 +1,101 @@
+#include <stdio.h>
+int main()
+{
+    int x, x60, x12;
+    char *animal, *color;
+    printf("Введите номер года: ");
+    scanf("%d", &x);
+    x60=x%60;
+    x12=x%12;
+    if (x12==0)
+    {
+       animal="обезьяны";
+    }
+    if (x12==1)
+    {
+       animal="курицы";
+    }
+    if (x12==2)
+    {
+       animal="собаки";
+    }
+    if (x12==3)
+    {
+       animal="свиньи";
+    }
+    if (x12==4)
+    {
+       animal="крысы";
+    }
+    if (x12==5)
+    {
+       animal="коровы";
+    }
+    if (x12==6)
+    {
+       animal="тигра";
+    }
+    if (x12==7)
+    {
+       animal="зайца";
+    }
+    if (x12==8)
+    {
+       animal="дракона";
+    }
+    if (x12==9)
+    {
+       animal="змеи";
+    }
+    if (x12==10)
+    {
+       animal="лошади";
+    }
+    if (x12==11)
+    {
+       animal="овцы";
+    }
+    if ((x60 % 10 == 4) || (x60 % 10 == 5)) {
+	   if((animal == "зайца") || (animal == "тигра") || (animal == "дракона")){
+	      color = "зелёного";
+	   }
+	   else{
+	      color = "зелёной";
+	   }
+	}
+	else if ((x60 % 10 == 6) || (x60 % 10 == 7)) { 
+	   if((animal == "зайца") || (animal == "тигра") || (animal == "дракона")){
+	      color = "красного";
+	   }
+	   else{
+	      color = "красной";
+	   }
+	}
+	else if ((x60 % 10 == 8) || (x60 % 10 == 9)) { 
+	   if((animal == "зайца") || (animal == "тигра") || (animal == "дракона")){
+		   color = "жёлтого";
+	   }
+	   else{
+	      color = "жёлтой";
+	   }
+	}
+	else if ((x60 % 10 == 0) || (x60 % 10 == 1)) { 
+	   if((animal == "зайца") || (animal == "тигра") || (animal == "дракона")){
+		   color = "белого";
+	   }
+	   else{
+	      color = "белой";
+	   }
+	}
+	else if ((x60 % 10 == 2) || (x60 % 10 == 3)) {
+	   if((animal == "зайца") || (animal == "тигра") || (animal == "дракона")){
+		   color = "чёрного";
+	   }
+	   else{
+	      color = "чёрной";
+	   }
+	}
+	printf("%d - год ", x);
+   printf("%s %s", color, animal);
+
+}
