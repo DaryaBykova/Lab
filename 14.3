@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main ()
+{
+    int n, k, i;
+    printf("Найдем наименьшее целое К, при котором сумма 1 + 2 + ... + К >= N.");
+    printf("Введите целое число N(N>1): ");
+    scanf("%d", &n);
+    k=i=0;
+    while (i<n)
+    {
+        k++;
+        i=i+k;
+    }
+    printf("K=%d. 1+2+...+K=%d", k, i);
+}
