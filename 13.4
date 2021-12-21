@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    float s=1, x=1, a;
+    int n;
+    printf ("Найдем сумму 1 + A + A^2 + A^3 + . . . + A^N. Введите два числа: А (вещественное) и N (целое) ");
+    scanf("%f %d", &a, &n);
+    for(int i = 1; i<=n; i++)
+    {
+        x=x*a;
+        s=s+x;
+    }
+    printf("1 + A + A^2 + A^3 + . . . + A^%d = %g", n, s);
+}
