@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void)
+{
+   int n;
+   int f1=1,f2=1,f=0,k=2;
+   printf("Найдем порядковый номер числа Фибоначчи N(N>1). Введите число:");
+   scanf("%d",&n);
+   while (f<n)
+   {
+       ++k;
+       f=f2+f1;
+       f2=f1;
+       f1=f;
+   }
+   printf("Порядковый номер N = %d",k);
+   return 0;
+}
