@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int n, A, D;
+    printf("Введите размер массива N(N>1): ");
+    scanf("%i",&n);
+    int a[n];
+    printf("Введите первый член последовательности A: ");
+    scanf("%i",&a[0]);
+    printf("Введите второй член последовательности B: ");
+    scanf("%i",&a[1]);
+    for (int i=2; i<n; ++i)
+    {
+        a[i]=0;
+        int i2;
+        for (i2=0; i2<i; ++i2)
+        {
+            a[i] += a[i2];
+        }
+    }
+    for (int i=0; i<n; ++i) 
+    {
+        printf("%i : %i\n",i,a[i]);
+    }
+    return 0;
+}
