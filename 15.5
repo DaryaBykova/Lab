@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+float fact2(int n)
+{
+    int temp=1;
+    for (;n>0;n-=2) temp*=n;
+    return temp;
+}
+ 
+int main()
+{
+    int n;
+    printf("Введите N:");
+    scanf("%i", &n);
+    printf("Двойной факториал введенного числа N!!= %g\n",fact2(n));
+    return 0;
+}
