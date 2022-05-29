@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T08:56:21.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" version="18.1.3" etag="5tWTlaz-_WkaSACTuLaA" type="github"><diagram id="wpYSvdMZVSxIeKuQxdoM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-29T09:06:16.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="0LGWlSXYb5TvUiOOVc3d" version="18.1.3" type="github">
+  <diagram id="wpYSvdMZVSxIeKuQxdoM" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-1" target="a6Avj-v0_aj-GZ02YERz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-1" value="Пользователь заходит на сайт" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-2" target="a6Avj-v0_aj-GZ02YERz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-2" value="Регистрируется/авторизуется" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-4" target="a6Avj-v0_aj-GZ02YERz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-4" value="Переходит в личный кабинет" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-6" target="a6Avj-v0_aj-GZ02YERz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-6" value="Переходит в раздел &quot;Настройки&quot;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-8" target="a6Avj-v0_aj-GZ02YERz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-8" value="&quot;Сменить пароль&quot;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-10" target="a6Avj-v0_aj-GZ02YERz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-10" value="Пользователю на почту отправлено письмо для сброса пароля" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-12" target="a6Avj-v0_aj-GZ02YERz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-12" target="a6Avj-v0_aj-GZ02YERz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-12" value="Письмо пришло?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="110" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-14" target="a6Avj-v0_aj-GZ02YERz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-14" value="&quot;Отправить еще раз&quot;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="495" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-16" target="a6Avj-v0_aj-GZ02YERz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-16" value="Пользователь переходит по ссылке для сброса пароля" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-21" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-23" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6Avj-v0_aj-GZ02YERz-24" target="a6Avj-v0_aj-GZ02YERz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-24" value="Создает новый пароль" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-26" value="Пароль изменен" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6Avj-v0_aj-GZ02YERz-28" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 36px; background-color: rgb(216, 255, 186);&quot;&gt;Смена пароля&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="310" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
